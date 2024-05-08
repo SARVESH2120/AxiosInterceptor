@@ -1,9 +1,11 @@
-import Posts from "./components/Posts/Posts";
+import React from 'react';
+import PostList from './PostList';
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <div>
-      <Posts />
+      {/* <h1>App</h1> */}
+      <PostList />
     </div>
   );
 };
